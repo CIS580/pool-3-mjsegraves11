@@ -246,6 +246,12 @@ function update(elapsedTime) {
   });
 
   // TODO: Process ball collisions
+  var collisionNormal = {
+    x: pair.a.position.x - pair.b.position.x;
+    y: pair.a.position.y - pair.b.position.y;
+  }
+
+  
 }
 
 /**
